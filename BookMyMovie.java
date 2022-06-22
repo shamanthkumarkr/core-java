@@ -28,13 +28,14 @@ class BookMyMovie
 	  this.seatNo = seatNo;
 	}
 	 
-	public int showTime(int noOfTickets,String bookedBy,String movieName)
+	public int showTime(int noOfTickets,String bookedBy,String movieName,int ticketPrice)
 	{
 	int totalOfTicketPrice =0;
 		System.out.println("inside showTime()...");
 		System.out.println("Arg 1 : No of tickets "+noOfTickets);
 		System.out.println("Arg 2 : Booked by "+bookedBy);
 		System.out.println("Arg 3 : Movie Name "+ movieName);
+		System.out.println("Arg 4 : Ticket price "+ ticketPrice);
 		
 		for(int i=0; i<movies.length ; i++)
 		{
@@ -44,9 +45,9 @@ class BookMyMovie
 		
 		if(noOfTickets<totalNoOfTickets)
 		{
-		totalOfTicketPrice=noOfTickets * ticketPrice;
+		totalOfticketPrice=noOfTickets * ticketPrice;
 		totalNoOfTickets=totalNoOfTickets - noOfTickets;
-		System.out.println("For Movie : "+movieName + "No.of tickets are that are remaining "+totalNoOfTickets +"Total price is " +totalOfTicketPrice );
+		System.out.println("For Movie : "+movieName + "No.of tickets are that are remaining "+totalNoOfTickets +"Total price is " +totalOfticketPrice );
 		}
 		else {System.out.println("ishtu tickets illa....");}
 		}
