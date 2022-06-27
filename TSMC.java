@@ -1,0 +1,1 @@
+class TSMC extends SemiConductors{}

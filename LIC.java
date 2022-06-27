@@ -1,0 +1,6 @@
+class LIC extends InsuranceCompany{
+
+	
+
+
+}

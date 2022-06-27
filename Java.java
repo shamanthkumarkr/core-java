@@ -1,0 +1,1 @@
+class Java extends ProgLang{}
