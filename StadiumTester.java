@@ -2,7 +2,7 @@ class StadiumTester
 {
 	public static void main(String a[])
 	{
-		Stadium grd = new Stadium();
+		StadiumDTO grd = new StadiumDTO();
 		grd.setName("ChinnaSwamy Stadium");
 		grd.setType("Cricket Stadium");
 		grd.setCapacity(35000);
@@ -11,7 +11,7 @@ class StadiumTester
 		
 		System.out.println(" \nName of the Stadium: "+grd.getName()+" \nType: "+grd.getType()+" \ncapacity "+grd.getCapacity()+" \nEstablished: "+grd.getEstd()+" \nLocation:"+grd.getLocation());
 		
-		grd.playingGames();
+		
 	
 	}
 

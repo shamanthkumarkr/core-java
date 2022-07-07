@@ -2,7 +2,7 @@ class NewspaperTester
 {
 	public static void main(String a[])
 	{
-		Newspaper np = new Newspaper();
+		NewspaperDTO np = new NewspaperDTO();
 		 np.setName("The Hindhu");
 		 np.setEstd(1885);
 		 np.setType("National paper");
@@ -13,7 +13,7 @@ class NewspaperTester
 		 System.out.println("Type : "+np.getType());
 		 System.out.println("price: "+np.getPrice());
 		 
-		 np.readNewspaper();
+		 
 	
 	
 	}

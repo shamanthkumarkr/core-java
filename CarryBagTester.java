@@ -2,7 +2,7 @@ class CarryBagTester
 {
 	public static void main(String a[])
 	{
-		CarryBag bag = new CarryBag();
+		CarryBagDTO bag = new CarryBagDTO();
 		//setting value in the name member and Price member
 		bag.setName("Nilkamal's bag");
 		bag.setPrice(10);

@@ -2,7 +2,7 @@ class IPLtester
 {
 	public static void main(String a[])
 	{
-		IPL ipl = new IPL();
+		IPLDTO ipl = new IPLDTO();
 		ipl.setType("T20 cricket league");
 		ipl.setOvers("20 Overs");
 		ipl.setSponcer("TATA IPl");
@@ -15,7 +15,7 @@ class IPLtester
 		System.out.println("Parent : "+ipl.getParent());
 		System.out.println("No of Teams Participated: "+ipl.getNoOfTeams());
 		
-		ipl.T20League();
+		
 
 	}
 }

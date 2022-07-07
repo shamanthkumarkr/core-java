@@ -2,7 +2,7 @@ class NovelTester{
 	
 	public static void main(String a[])
 	{
-		Novel bk = new Novel();
+		NovelDTO bk = new NovelDTO();
 		bk.setName("2 states");
 		bk.setAuthor("Chethan Bhagath");
 		bk.setPublication("Universal publications");
@@ -13,7 +13,7 @@ class NovelTester{
 		System.out.println("Publication : "+bk.getPublication());
 		System.out.println("Price: "+bk.getPrice());
 		
-		bk.getNovel();
+	
 		
 		
 	}
