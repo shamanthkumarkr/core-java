@@ -13,7 +13,7 @@ class AirportTester
 		System.out.println("Passengers in 2021to22: "+air.getPassengers());
 		System.out.println("Location: "+air.getLocation());
 	 
-		air.letsFly();
+		
 	
 	
 	}

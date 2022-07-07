@@ -1,4 +1,4 @@
-class Games{
+public class GamesDTO{
 
    private String name;
    private int noOfPlayers;

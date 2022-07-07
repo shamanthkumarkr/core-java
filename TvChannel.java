@@ -1,4 +1,4 @@
-class TvChannel{
+public class TvChannelDTO{
 
       private String name;
 	  private String langauge;

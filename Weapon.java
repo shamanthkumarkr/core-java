@@ -1,4 +1,4 @@
-class Weapon{
+public class WeaponDTO{
 
      private String name;
 	 private String type;
